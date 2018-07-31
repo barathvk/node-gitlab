@@ -19,7 +19,7 @@
     "test": "jest && codecov",
     "prepublishOnly": "npm run build",
     "semantic-release": "semantic-release",
-    "postInstall": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
