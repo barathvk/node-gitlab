@@ -18,7 +18,8 @@
     "test:services": "jest test/tests/services",
     "test": "jest && codecov",
     "prepublishOnly": "npm run build",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "postInstall": "npm run build"
   },
   "repository": {
     "type": "git",
